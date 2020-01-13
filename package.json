@@ -1,8 +1,8 @@
 {
   "name": "viraljs",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "P2P distributed application made easy",
-  "main": "./src/virus-container.js",
+  "main": "./src/viral-container.js",
   "scripts": {
     "demo": "cd ./demo/ && nodemon --watch ./ --watch ../src/ ./server.js"
   },

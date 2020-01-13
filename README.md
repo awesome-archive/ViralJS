@@ -2,12 +2,12 @@
 
 ExpressJS middleware for P2P Web apps distribution
 ==================================================
-To reduce server load, latency and establish self-maintainable CDN with you users browsers.
+To reduce server load, latency and establish self-maintainable CDN based on your users browsers.
 
 [![Join the chat at https://gitter.im/PixelsCommander/ViralJS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PixelsCommander/ViralJS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-- [Demo](http://pixelscommander.com:3000)
 - [Website](http://pixelscommander.github.io/Viral.JS/)
+- [Demo](http://pixelscommander.com:3000)
 - [Article about](http://pixelscommander.com/en/interactive-revolution/what-is-beyond-isomorphic/)
 
 Installing from NPM
@@ -17,7 +17,7 @@ Installing from NPM
 How to use?
 -----------
 
-```html
+```js
 var ViralContainer = require('viraljs');
 var viralContainer = new ViralContainer();
 myExpressApp.use(viralContainer.middleware);
